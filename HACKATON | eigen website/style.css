@@ -1,0 +1,159 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 350px auto 50px;
+}
+
+.header{
+background-image: url("content/header.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#267230;
+height:200px;
+grid-column: 1 / -1;
+}
+
+.main{
+background-color: white;
+grid-column: 1/ -1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-top: 10px;
+padding-left: 10px;
+overflow: scroll;
+}
+
+.h1{
+color: gray;
+font-style: bold;
+font-size: 13px;
+}
+
+.widget{
+background-color: lightgray;
+grid-column: 1/-1;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+align-items: center;
+}
+
+.footer{
+background-color:#267230;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 9px;
+color: white;
+padding: 10px 0;
+text-align: center;
+grid-column: 1 / -1;
+}
+
+/* index page */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #267230;
+  }
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#19491f;
+}
+
+/* about the sport */
+
+ 
+
+/* faq */
+
+/* contact */
+
+
+    .form-style{
+        max-width: 450px;
+        background: #FAFAFA;
+        padding: 30px;
+        margin: 50px auto;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+        border-radius: 10px;
+        border: 6px solid #267230;
+    }
+    
+    .form-style [type="text"]{
+        display: block;
+        margin-bottom: 5px;
+        min-height: 35px;
+        box-sizing: border-box; 
+        padding: 8px;
+        outline: none;
+        border: none;
+        background-color:lightgray;
+    }
+
+    .form-style [type="url"]{
+        display: block;
+        margin-bottom: 5px;
+        min-height: 35px;
+        box-sizing: border-box; 
+        padding: 8px;
+        border: none;
+        background-color:lightgray;
+    }
+
+    .form-style [type="date"]{
+        display: block;
+        margin-bottom: 5px;
+        min-height: 35px;
+        box-sizing: border-box; 
+        padding: 8px;
+        border: none;
+        background-color:lightgray;
+    }
+    
+    .form-style [type="message"]{
+        display: block;
+        width:250px;
+	    height:100px;
+        margin-bottom: 5px;
+        min-height: 35px;
+        box-sizing: border-box; 
+        padding: 8px;
+        border: none;
+        background-color:lightgray;
+    }
+
+    .form-style [type="reset"], 
+    .form-style [type="submit"] {
+        background-color: #267230;
+        border: 1px solid #19491f;
+        display: inline-block;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 8px 18px;
+        text-decoration: none;
+        font: 12px Arial, Helvetica, sans-serif;
+    }
+    .form-style [type="reset"]:hover, 
+    .form-style [type="submit"]:hover {
+        background-color: #19491f;
+    }
+      }
+}
